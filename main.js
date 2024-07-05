@@ -6,11 +6,11 @@ var rendomImg2 = "images/dice"+rendom2+".png"
 function winer(){
     image();
 if(rendom1 < rendom2){
-    document.querySelector("h1").innerHTML="Player 2 wins";
+    document.querySelector("h1").innerHTML="Player 2 Wins";
     }else if(rendom1 === rendom2){
-    document.querySelector("h1").innerHTML="Drow"
+    document.querySelector("h1").innerHTML="Draw"
     }else {
-        document.querySelector("h1").innerHTML="Player 1 wins"
+        document.querySelector("h1").innerHTML="Player 1 Wins"
     } 
 }
 
